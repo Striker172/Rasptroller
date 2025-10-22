@@ -1729,7 +1729,7 @@ void PICC_DumpMifareClassicToSerial(
 
 	// Dump sectors, highest address first.
 	if (no_of_sectors) {
-		printf("Sector Block   0  1  2  3   4  5  6  7   8  9 10 11  12 13 "
+		printf("Sector Block   0  1  2  3   4  5  6  7   8  9 10 11 12 13 "
 				 "14 15  AccessBits\r\n");
 		for (int8_t i = no_of_sectors - 1; i >= 0; i--) {
 			PICC_DumpMifareClassicSectorToSerial(mfrc, uid, key, i);

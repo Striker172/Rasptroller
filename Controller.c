@@ -9,12 +9,14 @@ int main()
     uint8_t uid[] = {0x93,0xE3,0x9A,0x92}; //Dummy UID most likely.
     MFRC522Ptr_t mfrc522 = MFRC522_Init();
     PCD_Init(mfrc522,spi0);
+    char *message = "Hi,There";
     while(1){
         
         while(!PICC_IsNewCardPresent(mfrc522));//This will need to be changed to something else later on
         printf("Card detected!\n\r");
         PICC_ReadCardSerial(mfrc522);
         PICC_DumpToSerial(mfrc522,&(mfrc522->uid)); //This says uid, type of card and such. 
+        MIFARE_Write(mfrc522,0x02,message,sizeof(message));
         //Authorization with uid
         // printf("Uid is: ");
         // for(int i = 0; i < 4; i++) {
