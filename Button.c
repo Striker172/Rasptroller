@@ -1,7 +1,32 @@
 #include "Button.h"
 Button buttons[ButCount] = {0};
 void gpio_callback(uint gpio, uint32_t events){
-    
+    uint64_t currTime = time_us_64();
+    int index = gpio-PIN_GROUP_START;
+    if(index < 0 || index >= ButCount) {
+        return;
+    }
+    if((currTime-buttons[index].press_timestampprev) > ButDebounce*1000){
+            buttons[index].press_timestampprev = currTime;
+        switch(events){
+            case GPIO_IRQ_EDGE_RISE:
+                buttons[index].press_timestamp = currTime;
+            break;
+            case GPIO_IRQ_EDGE_FALL:
+                if((currTime-buttons[index].press_timestamp) < timeAllowed*1000){
+                    buttons[index].isPressed = true;
+                }
+            break;
+            default: //This assumes error so idk change later
+            return; 
+            break;
+        }
+    } 
+}
+void resetButton(ButtonID button){
+    if(button < ButCount){
+        buttons[button].isPressed = false;
+    }
 }
 int setup(){
     //Timers may need to be implemented for double click, and long.

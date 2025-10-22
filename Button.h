@@ -7,6 +7,8 @@
 #define PIN_GROUP_START 8
 #define PIN_GROUP_END 15
 #define ButCount 7
+#define ButDebounce 10
+#define timeAllowed 30
 typedef enum {
     BTN_UP,
     BTN_DOWN,
@@ -27,6 +29,6 @@ typedef struct {
 }Button;
 extern Button buttons[ButCount];
 int setup();
-
+void resetButton(ButtonID button);
 
 #endif
