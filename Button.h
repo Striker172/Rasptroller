@@ -7,8 +7,8 @@
 #define PIN_GROUP_START 8
 #define PIN_GROUP_END 15
 #define ButCount 7
-#define ButDebounce 10
-#define timeAllowed 30
+#define ButDebounce 3
+#define timeAllowed 6
 typedef enum {
     BTN_UP,
     BTN_DOWN,

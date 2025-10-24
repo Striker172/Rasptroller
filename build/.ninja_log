@@ -4,10 +4,10 @@
 133	249	7826126798396439	pico-sdk/src/rp2040/boot_stage2/bs2_default.elf	e739af1d6d4c5758
 1036	1220	7826126806300006	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj	ddf5d224492f57c3
 249	273	7826126798589192	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin	233a0ce94af873dd
-133	249	7826126798396439	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.dis	e739af1d6d4c5758
 381	584	7826126799750017	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj	ec180f01e432a8fb
-620	971	7826126802144712	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.obj	e4e36e41e6819bb0
+133	249	7826126798396439	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.dis	e739af1d6d4c5758
 249	273	7826126798589192	pico-sdk/src/rp2040/boot_stage2/bs2_default.bin	233a0ce94af873dd
+620	971	7826126802144712	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.obj	e4e36e41e6819bb0
 133	249	7826126798396439	pico-sdk/src/rp2040/boot_stage2/bs2_default.dis	e739af1d6d4c5758
 273	325	7826126799044164	pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S	c6f42d80fa47bdb9
 386	678	7826126799810271	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.obj	c28c83fa4c68431
@@ -102,3 +102,14 @@
 1958	2336	7826126819204432	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.hex	a1943312b8c74779
 1958	2336	7826126819204432	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.bin	a1943312b8c74779
 1958	2336	7826126819204432	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.uf2	a1943312b8c74779
+63	587	7830370337483132	CMakeFiles/Controller.dir/Controller.c.obj	a4981d756961cc52
+68	589	7830370337640005	CMakeFiles/Controller.dir/Button.c.obj	1ec24fd9f81a79a8
+589	3513	7830370372024618	Controller.elf	a1943312b8c74779
+589	3513	7830370372024618	Controller.dis	a1943312b8c74779
+589	3513	7830370372024618	Controller.hex	a1943312b8c74779
+589	3513	7830370372024618	Controller.bin	a1943312b8c74779
+589	3513	7830370372024618	Controller.uf2	a1943312b8c74779
+589	3513	7830370372024618	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.dis	a1943312b8c74779
+589	3513	7830370372024618	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.hex	a1943312b8c74779
+589	3513	7830370372024618	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.bin	a1943312b8c74779
+589	3513	7830370372024618	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.uf2	a1943312b8c74779

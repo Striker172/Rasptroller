@@ -18,8 +18,7 @@ void gpio_callback(uint gpio, uint32_t events){
                 }
             break;
             default: //This assumes error so idk change later
-            return; 
-            break;
+            return;
         }
     } 
 }
