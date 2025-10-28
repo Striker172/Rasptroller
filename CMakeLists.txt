@@ -56,6 +56,8 @@ target_link_libraries(Controller
 target_sources( Controller PUBLIC
     ${CMAKE_CURRENT_LIST_DIR} Controller.c
     ${CMAKE_CURRENT_LIST_DIR} Button.c
+    ${CMAKE_CURRENT_LIST_DIR} usb.c
+    ${CMAKE_CURRENT_LIST_DIR} usb_descriptors.c
     )
 # Add the standard include files to the build
 target_include_directories(Controller PUBLIC
@@ -66,6 +68,8 @@ target_include_directories(Controller PUBLIC
 target_link_libraries(Controller 
     hardware_spi
     hardware_gpio
+    tinyusb_device
+    tinyusb_board
     )
 
 pico_add_extra_outputs(Controller)

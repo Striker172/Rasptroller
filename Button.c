@@ -22,21 +22,29 @@ void gpio_callback(uint gpio, uint32_t events){
         }
     } 
 }
-void resetButton(ButtonID button){
-    if(button < ButCount){
-        buttons[button].isPressed = false;
+void resetButton(){
+    for(int i = 0; i < ButCount; i++){
+        buttons[i].isPressed = false;
     }
 }
 int setup(){
     //Timers may need to be implemented for double click, and long.
     for(int gpio = 0; gpio < ButCount;gpio++){
-        buttons[gpio].id = gpio+PIN_GROUP_START;
+        buttons[gpio].pin = gpio+PIN_GROUP_START;
         buttons[gpio].isPressed = false;
         buttons[gpio].press_timestamp = 0;
         buttons[gpio].press_timestampprev = 0;
         gpio_init(buttons[gpio].id);
         gpio_set_dir(buttons[gpio].id,GPIO_IN);
         gpio_pull_down(buttons[gpio].id);
-        gpio_set_irq_enabled_with_callback(buttons[gpio].id,GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL,true,&gpio_callback);
+        // gpio_set_irq_enabled_with_callback(buttons[gpio].id,GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL,true,&gpio_callback);
     }
+    // buttons[0].id = GAMEPAD_HAT_UP;
+    // buttons[1].id = GAMEPAD_HAT_DOWN;
+    // buttons[2].id = GAMEPAD_HAT_RIGHT;
+    // buttons[3].id = GAMEPAD_HAT_LEFT;
+    // buttons[4].id = GAMEPAD_BUTTON_A;
+    // buttons[5].id = GAMEPAD_BUTTON_B;
+    // buttons[6].id = GAMEPAD_BUTTON_START;
+    // buttons[7].id = GAMEPAD_BUTTON_SELECT;
 }

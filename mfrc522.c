@@ -1498,6 +1498,8 @@ const char *GetStatusCodeName(StatusCode code ///< One of theStatusCode enums.
 		return "The CRC_A does not match.";
 	case STATUS_MIFARE_NACK:
 		return "A MIFARE PICC responded with NAK.";
+	case STATUS_SECT_OFF_LIMITS:
+		return "The sector/block is off limits to overwrite";
 	default:
 		return "Unknown error";
 	}

@@ -278,6 +278,7 @@ typedef enum _StatusCode {
 	STATUS_INTERNAL_ERROR, // Internal error in the code. Should not happen ;-)
 	STATUS_INVALID,		   // Invalid argument.
 	STATUS_CRC_WRONG,	  // The CRC_A does not match
+	STATUS_SECT_OFF_LIMITS,
 	STATUS_MIFARE_NACK = 0xff // A MIFARE PICC responded with NAK.
 } StatusCode;
 
