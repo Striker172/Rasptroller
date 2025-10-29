@@ -279,6 +279,7 @@ typedef enum _StatusCode {
 	STATUS_INVALID,		   // Invalid argument.
 	STATUS_CRC_WRONG,	  // The CRC_A does not match
 	STATUS_SECT_OFF_LIMITS,
+	STATUS_NO_CARD_DETECTED,
 	STATUS_MIFARE_NACK = 0xff // A MIFARE PICC responded with NAK.
 } StatusCode;
 

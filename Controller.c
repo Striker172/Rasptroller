@@ -47,17 +47,58 @@ StatusCode writeToCard(MFRC522Ptr_t mfrc522,
     uint8_t blockAddr, ///<Block address equation = (Sector Num *4) +Block Offset
     char *message ///<Messsage to write to the sector
     ){
+    StatusCode code;
+    uint8_t buffer[16] = {0};
+    size_t len = strlen(message);
+    if(len < 16) len = 16;
+    memcpy(buffer,message,len);
     if(blockAddr > 3 && blockAddr%4 != 3){
-        StatusCode code = PCD_Authenticate(mfrc522,PICC_CMD_MF_AUTH_KEY_A,blockAddr,&key,&(mfrc522->uid));
+        while(!PICC_IsNewCardPresent(mfrc522));
+        code = PICC_Select(mfrc522,&(mfrc522->uid),mfrc522->uid.size);
+        //  printf("1) Error code: %d\n",code);
+        code = PCD_Authenticate(mfrc522,PICC_CMD_MF_AUTH_KEY_A,blockAddr,&key,&(mfrc522->uid));
+        //  printf("2) Error code: %d\n",code);
         if(code == 0){
-            code = MIFARE_Write(mfrc522,blockAddr,message,sizeof(message));
+            code = MIFARE_Write(mfrc522,blockAddr,buffer,len);
+            //  printf("3) Error code: %d\n",code);
             if(code == 0){
                 PCD_StopCrypto1(mfrc522);
             } 
         }
+        code = PICC_HaltA(mfrc522);
         return code;
     }
     return STATUS_SECT_OFF_LIMITS;
+}
+StatusCode readFromCard(MFRC522Ptr_t mfrc522,uint8_t blockAddr,char *message){
+    StatusCode code;
+    uint8_t buffer[18] = {0};
+    uint8_t size = sizeof(buffer);
+    while(!PICC_IsNewCardPresent(mfrc522));
+    code = PICC_Select(mfrc522,&(mfrc522->uid),0);//ALWAYS HAS TO BE ZERO OTHERWISE CAUSES ERROR WITH THE TIMEOUT
+     printf("1) Error code: %d\n",code);
+    code = PCD_Authenticate(mfrc522,PICC_CMD_MF_AUTH_KEY_A,blockAddr,&key,&(mfrc522->uid));
+     printf("2) Error code: %d\n",code);
+    if(code == 0){
+            code = MIFARE_Read(mfrc522,blockAddr,buffer,&size);
+             printf("3) Error code: %d\n",code);
+            if(code == 0){
+                PCD_StopCrypto1(mfrc522);
+            } 
+        }
+        memcpy(message,buffer,16);
+        message[16] = '\0';
+        for(int i = 0; i < 16;i++){
+            printf("%c",message[i]);
+        }
+        code = PICC_HaltA(mfrc522);
+        return code;
+}
+void DumptoSerial(MFRC522Ptr_t mfrc522){
+    while(!PICC_IsNewCardPresent(mfrc522));//This will need to be changed to something else later on
+    printf("Card detected!\n\r");
+    PICC_ReadCardSerial(mfrc522);
+    PICC_DumpToSerial(mfrc522,&(mfrc522->uid)); //This says uid, type of card and such. 
 }
 int main()
 {
@@ -69,14 +110,18 @@ int main()
     MFRC522Ptr_t mfrc522 = MFRC522_Init();
     PCD_Init(mfrc522,spi0);
     char *message = "Hi,There";
+    char receive[18] = {0};
     while(1){
         if(!hasBalance){
-            while(!PICC_IsNewCardPresent(mfrc522));//This will need to be changed to something else later on
-            printf("Card detected!\n\r");
-            PICC_ReadCardSerial(mfrc522);
-            PICC_DumpToSerial(mfrc522,&(mfrc522->uid)); //This says uid, type of card and such. 
             //Block address equation = (Sector Num *4) +Block Offset
-            writeToCard(mfrc522,0x04,message);
+            // DumptoSerial(mfrc522);
+            // while(!PICC_IsNewCardPresent(mfrc522));//This will need to be changed to something else later on
+            StatusCode t; 
+            // t = writeToCard(mfrc522,0x04,message);
+            t = readFromCard(mfrc522,0x04,receive);
+            sleep_ms(500);
+            printf("4) Error code: %d\n",t);
+            // printf("%s\n",receive);
         }
         /* This should how the setup should go for the timer
         Read the actual balance on the RFID card read the flag whether it should remove the balance or not, 

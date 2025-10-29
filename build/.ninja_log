@@ -1,167 +1,117 @@
 # ninja log v6
 72	132	7826126796677837	pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj	7ab857745acdcdf0
-680	1425	7833723485974562	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj	adb40241cd496a32
+886	1210	7834000737381068	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj	f3e214db7a18d15e
 133	249	7826126798396439	pico-sdk/src/rp2040/boot_stage2/bs2_default.elf	e739af1d6d4c5758
-660	1029	7833723485793341	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj	b2adf663dcd29d19
+852	1044	7834000737036387	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj	ddf5d224492f57c3
 249	273	7826126798589192	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin	233a0ce94af873dd
-181	735	7833721653407653	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj	28f21cd04434dd6c
 133	249	7826126798396439	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.dis	e739af1d6d4c5758
+142	370	7834000729927608	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj	ec180f01e432a8fb
+389	667	7834000732402034	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.obj	e4e36e41e6819bb0
 249	273	7826126798589192	pico-sdk/src/rp2040/boot_stage2/bs2_default.bin	233a0ce94af873dd
-116	453	7833723480342484	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.obj	d49c8a1cc0397cfb
 133	249	7826126798396439	pico-sdk/src/rp2040/boot_stage2/bs2_default.dis	e739af1d6d4c5758
 273	325	7826126799044164	pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S	c6f42d80fa47bdb9
-187	744	7833721653468140	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.obj	58c2d060189888fa
-100	512	7833723480177463	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.obj	90f2f81e42e42d63
+147	447	7834000729987841	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.obj	c28c83fa4c68431
+357	817	7834000732085839	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.obj	ad5ad67c87693c6
 273	325	7826126799044164	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S	c6f42d80fa47bdb9
-720	999	7833723486388184	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.obj	50aac18636bac79
-143	743	7833721653023862	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.obj	3a0c1cec7703819d
-58	383	7833723479673826	CMakeFiles/Controller.dir/Controller.c.obj	4d8670176befdd22
-82	731	7833721652342741	CMakeFiles/Controller.dir/Button.c.obj	78ae23451efb88e1
-76	352	7833723479932934	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.obj	8ff8c7509dc90d4
-125	744	7833721652840444	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.obj	e8777b313d6bce70
-67	608	7833723479852266	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj	80c491850cbdd910
-157	726	7833721653160929	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.obj	8aee13ca132ff0ae
-441	705	7833723483599349	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj	1435fcecade1e56c
-705	1049	7833723486241591	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj	a497bfd9ac2b0754
-170	729	7833721653290876	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj	d0303cd8afc44ce5
-126	652	7833723480450566	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.obj	e30797298c52d627
-135	732	7833721652927720	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.obj	e4d4295dd2b35649
-821	1185	7833723487398015	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.obj	80764f4ed92e5a8d
+921	1124	7834000737724166	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.obj	9529915bae561d3b
+99	316	7834000729503129	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.obj	811c18c9408acb96
+60	230	7834114063798283	CMakeFiles/Controller.dir/Controller.c.obj	a4981d756961cc52
+70	423	7834000729219769	CMakeFiles/Controller.dir/Button.c.obj	1ec24fd9f81a79a8
+317	611	7834000731672215	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.obj	c23d8cbef62cc4c6
+82	482	7834000729329817	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.obj	13bc92047e7a71ae
+167	679	7834000730186008	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj	d2cfbc4c57aee38f
+116	338	7834000729673539	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.obj	14c834bd4e657b28
+693	928	7834000735449653	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj	4376480a84f8b76a
+897	1168	7834000737479337	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj	546aa8624e8a612f
+130	350	7834000729817886	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj	45d8a2765c31f73d
+404	743	7834000732555268	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.obj	751f9642e471779f
+91	357	7834000729420386	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.obj	6d232687c5585339
+968	1227	7834000738179222	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.obj	98eed633dedbff50
 1689	1807	7826126812847429	pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj	961a558dbf8578dd
-114	725	7833721652709143	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.obj	29c19a997e0357a0
-435	759	7833723483538819	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj	ac64839050193afa
-192	739	7833721653525353	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.obj	2992e3d0d1361de1
-175	746	7833721653351170	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.obj	28256eaf03374492
-62	345	7833723479673826	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.obj	41675752e1ffb976
-151	747	7833721653103251	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.obj	9b7229e7e1a8e868
-391	787	7833723483089395	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj	683b46e2d3e3a463
-162	726	7833721653224179	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.obj	24142f1176ab916c
-88	680	7833723480063239	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.obj	76f65807fc39d8c1
-121	434	7833723480396777	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.obj	e35667a4aafe243e
-518	814	7833723484377665	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj	d37816735779340c
-201	745	7833721653598485	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.obj	7888fc4996eef662
-130	518	7833723480480960	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.obj	a5875bedd2c56241
-141	446	7833723480602907	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj	20d944f992363b92
-136	559	7833723480551017	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.obj	ded4790065d4636c
-346	660	7833723482654436	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.obj	51d6ad257e7838ee
-106	391	7833723480250431	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.obj	2a593d556c56f5ba
-352	602	7833723482710834	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.obj	ca52c67b846b9523
-81	429	7833723480004120	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.obj	bcbcb93b7b9e9101
-146	440	7833723480643076	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj	5dd982a1fdea49ef
-153	528	7833723480705627	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.obj	7a4e180ad1285cd4
-383	668	7833723483021982	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.obj	5eb1ef88fffecaea
-95	550	7833723480111145	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.obj	dfbd6f196f8309d5
-447	733	7833723483649822	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.obj	ffdf944f44dbe5a3
-453	714	7833723483720970	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj	c97f53ff8c9bd54f
-429	795	7833723483480190	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj	c73ef754c4a1e8fa
-111	504	7833723480298528	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.obj	ef19ffc0a88daea5
-528	720	7833723484467736	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj	26224599806c5cb5
-505	821	7833723484238889	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj	6db458ca1204d81a
-551	827	7833723484689747	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj	774e68a42902640c
-608	856	7833723485257986	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj	7eee1ecd0de4d0c5
-787	1284	7833723487051300	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj	be8683f1a92f6bf3
-559	903	7833723484789159	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj	8e4376f490cfa538
-652	1006	7833723485712716	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.obj	ff9dbaca4e90e0c6
-733	1235	7833723486514948	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj	96b1f6f502bcd3d4
-856	1191	7833723487741932	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.obj	732d2e49dcec0fd6
-814	1197	7833723487337901	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj	eadf7b092ffb4d6
-759	1241	7833723486769462	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj	79ffa8c3fedab6e9
-1049	1348	7833723489680916	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.obj	67a193118c83990c
-795	1203	7833723487143896	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj	c8df6f2f4b884c59
-668	1252	7833723485873087	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.obj	4f6733c6bd407552
-827	1304	7833723487443632	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.obj	8293071c162cc463
-1029	1373	7833723489472459	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj	7c87f7dc19d20905
-999	1485	7833723489177091	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj	e318a0e34862169
-1185	1356	7833723491044560	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.obj	ac13aa71f35edbc8
-1192	1434	7833723491101161	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj	8c804a8b4b81a716
-72	749	7833721652184440	CMakeFiles/Controller.dir/mfrc522.c.obj	a95dfed319715331
-1204	1482	7833723491221512	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.obj	dfe74a51d5d3c026
-602	1171	7833723485208921	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.obj	883c7abd396d1bda
-1197	1547	7833723491166870	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj	e1f6775d4bee30f8
-1212	1406	7833723491315755	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.obj	fe4781e04453affa
-1235	1478	7833723491543961	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.obj	460e7f051266773f
-1241	1467	7833723491604075	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj	5418620b8b4ca887
-1228	1445	7833723491474918	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj	90a244308e32650d
-904	1512	7833723488218488	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj	d366319a8da53710
-1285	1484	7833723492031563	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.obj	bb5e66c729ffeff4
-1171	1361	7833723490909091	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj	dad452f020393925
-512	1212	7833723484307185	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.obj	dd0453169b5694fd
-1349	1642	7833723492677575	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj	79860a172132e08b
-714	1228	7833723486316667	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj	ee28aee5125752da
-1356	1550	7833723492751005	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj	acf7acd8d39e5bdf
-1252	1458	7833723491711323	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj	df8c4ea6ecb7d4ee
-1006	1563	7833723489257648	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj	2dc075bec8654970
-1305	1615	7833723492240987	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj	d7534d23f614929d
-1362	1566	7833723492811451	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_spi/spi.c.obj	ebfb29cd4980d56f
-1721	3601	7833723515061287	Controller.elf	890c2d567e8da3b8
-1721	3601	7833723515061287	Controller.dis	890c2d567e8da3b8
-1721	3601	7833723515061287	Controller.hex	890c2d567e8da3b8
-1721	3601	7833723515061287	Controller.bin	890c2d567e8da3b8
-1721	3601	7833723515061287	Controller.uf2	890c2d567e8da3b8
-1721	3601	7833723515061287	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.dis	890c2d567e8da3b8
-1721	3601	7833723515061287	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.hex	890c2d567e8da3b8
-1721	3601	7833723515061287	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.bin	890c2d567e8da3b8
-1721	3601	7833723515061287	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.uf2	890c2d567e8da3b8
-102	728	7833721652550401	CMakeFiles/Controller.dir/usb_descriptors.c.obj	a6749e3b168d756d
-90	742	7833721652502202	CMakeFiles/Controller.dir/usb.c.obj	f2a56327fd567ae5
-1373	1720	7833723492917600	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.obj	b3ea1152eb1bd1e3
-164	1493	7833748973776538	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj	dad452f020393925
-193	1579	7833748973953322	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.obj	dfe74a51d5d3c026
-171	1584	7833748973838119	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.obj	ac13aa71f35edbc8
-108	1591	7833748973187530	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj	c8df6f2f4b884c59
-115	1597	7833748973282603	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj	eadf7b092ffb4d6
-88	1603	7833748973009253	CMakeFiles/Controller.dir/usb_descriptors.c.obj	a6749e3b168d756d
-157	1609	7833748973706600	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.obj	67a193118c83990c
-180	1616	7833748973935108	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj	8c804a8b4b81a716
-55	1623	7833748972629682	CMakeFiles/Controller.dir/Controller.c.obj	4d8670176befdd22
-185	1662	7833748973953322	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj	e1f6775d4bee30f8
-99	1663	7833748973117414	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj	be8683f1a92f6bf3
-79	1673	7833748972865254	CMakeFiles/Controller.dir/usb.c.obj	f2a56327fd567ae5
-68	1676	7833748972812437	CMakeFiles/Controller.dir/Button.c.obj	78ae23451efb88e1
-149	1691	7833748973625202	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj	7c87f7dc19d20905
-1591	1735	7833748988029905	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj	5418620b8b4ca887
-1494	1740	7833748987055200	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.obj	fe4781e04453affa
-132	1784	7833748973452708	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj	e318a0e34862169
-1598	1788	7833748988099823	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj	df8c4ea6ecb7d4ee
-123	1791	7833748973362694	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj	d366319a8da53710
-1584	1793	7833748987968522	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.obj	460e7f051266773f
-1603	1803	7833748988166248	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.obj	bb5e66c729ffeff4
-1579	1809	7833748987907609	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj	90a244308e32650d
-141	1827	7833748973474000	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj	2dc075bec8654970
-59	1830	7833748972629682	CMakeFiles/Controller.dir/mfrc522.c.obj	a95dfed319715331
-1616	1920	7833748988291390	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj	79860a172132e08b
-1609	1954	7833748988210750	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj	d7534d23f614929d
-1623	2162	7833748988363366	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.obj	b3ea1152eb1bd1e3
-2162	4767	7833749019716804	Controller.elf	890c2d567e8da3b8
-2162	4767	7833749019716804	Controller.dis	890c2d567e8da3b8
-2162	4767	7833749019716804	Controller.hex	890c2d567e8da3b8
-2162	4767	7833749019716804	Controller.bin	890c2d567e8da3b8
-2162	4767	7833749019716804	Controller.uf2	890c2d567e8da3b8
-2162	4767	7833749019716804	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.dis	890c2d567e8da3b8
-2162	4767	7833749019716804	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.hex	890c2d567e8da3b8
-2162	4767	7833749019716804	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.bin	890c2d567e8da3b8
-2162	4767	7833749019716804	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.uf2	890c2d567e8da3b8
-87	249	7833749373623738	CMakeFiles/Controller.dir/usb.c.obj	f2a56327fd567ae5
-79	251	7833749373456984	CMakeFiles/Controller.dir/Controller.c.obj	4d8670176befdd22
-83	255	7833749373623738	CMakeFiles/Controller.dir/Button.c.obj	78ae23451efb88e1
-256	570	7833749378420541	Controller.elf	890c2d567e8da3b8
-256	570	7833749378420541	Controller.dis	890c2d567e8da3b8
-256	570	7833749378420541	Controller.hex	890c2d567e8da3b8
-256	570	7833749378420541	Controller.bin	890c2d567e8da3b8
-256	570	7833749378420541	Controller.uf2	890c2d567e8da3b8
-256	570	7833749378420541	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.dis	890c2d567e8da3b8
-256	570	7833749378420541	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.hex	890c2d567e8da3b8
-256	570	7833749378420541	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.bin	890c2d567e8da3b8
-256	570	7833749378420541	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.uf2	890c2d567e8da3b8
-58	177	7833749661468819	CMakeFiles/Controller.dir/usb.c.obj	f2a56327fd567ae5
-50	190	7833749661468819	CMakeFiles/Controller.dir/Controller.c.obj	4d8670176befdd22
-54	217	7833749661468819	CMakeFiles/Controller.dir/Button.c.obj	78ae23451efb88e1
-217	495	7833749665855600	Controller.elf	890c2d567e8da3b8
-217	495	7833749665855600	Controller.dis	890c2d567e8da3b8
-217	495	7833749665855600	Controller.hex	890c2d567e8da3b8
-217	495	7833749665855600	Controller.bin	890c2d567e8da3b8
-217	495	7833749665855600	Controller.uf2	890c2d567e8da3b8
-217	495	7833749665855600	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.dis	890c2d567e8da3b8
-217	495	7833749665855600	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.hex	890c2d567e8da3b8
-217	495	7833749665855600	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.bin	890c2d567e8da3b8
-217	495	7833749665855600	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.uf2	890c2d567e8da3b8
+75	404	7834000729269790	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.obj	eec774e34937a3c8
+679	915	7834000735302506	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj	bd2b98395178791
+152	344	7834000730027993	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.obj	9cc7d5a63824839e
+137	583	7834000729867353	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.obj	6d307c1b91665b16
+162	430	7834000730125773	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.obj	6b3751e49de3d880
+107	382	7834000729573113	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.obj	b821749c98dbcd08
+667	962	7834000735174183	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj	d57b80464b0dc37
+124	388	7834000729751240	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.obj	77de08f132d91da0
+344	693	7834000731946512	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.obj	79b12d98efed1fed
+395	661	7834000732469318	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.obj	1d910998d14307cd
+743	968	7834000735949206	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj	a713a0fc3ccadd16
+157	558	7834000730085638	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.obj	b22e2d805bf8a710
+423	699	7834000732747025	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.obj	a920b47d363ebe0a
+448	672	7834000732989411	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj	f64bbd305167f47f
+430	731	7834000732812742	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.obj	150193c59dbb8f27
+583	897	7834000734346748	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.obj	b291e9bc1d9dc6e9
+371	705	7834000732213139	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.obj	473582924a3c393b
+611	811	7834000734614232	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.obj	9f77389ba00ff1a6
+338	789	7834000731882603	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.obj	67991a48930799ab
+482	846	7834000733320835	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj	b1738b242c8b383d
+558	886	7834000734091799	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.obj	fd948b4246acbaf4
+661	936	7834000735113953	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.obj	f76257ab0c2564e8
+350	805	7834000732006793	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.obj	63c4d8ac5988888e
+699	858	7834000735499516	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.obj	570cbfe80bed4485
+705	852	7834000735559765	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj	f7dd00401b9b306f
+673	947	7834000735244470	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj	76ece479573e3c7e
+382	737	7834000732332695	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.obj	b9059d14be21987b
+774	976	7834000736252689	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj	77c43b18e2ba226e
+732	1016	7834000735834818	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj	b800143b16b91b58
+789	942	7834000736410601	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj	dc9789b30b8e5635
+817	921	7834000736683130	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj	a85aa4607320207a
+71	447	7834002397204886	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj	c862f190e02f9458
+805	1100	7834000736567112	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj	3d30923771bb8e7
+846	1151	7834000736975723	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.obj	af01a310533c5753
+928	1289	7834000737792624	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj	7049fbeea023b526
+1016	1292	7834000738673293	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.obj	af106159993dc25b
+90	405	7834002397382035	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj	57ae60c19f65e134
+936	1282	7834000737874169	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj	fd24071d9fd307a9
+146	350	7834002397962707	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.obj	39e81b9ebd1ebeb6
+79	453	7834002397281567	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj	7864bc6a03188d3b
+858	1293	7834000737095928	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.obj	ecfe4ab0c87d3922
+976	1291	7834000738272608	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.obj	9fb008554e781eec
+139	455	7834002397876363	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj	18df1ac086f4ee39
+113	454	7834002397627582	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj	9f7da594b0ccdb2c
+158	447	7834002398071457	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.obj	a5b68eb5f438f3f2
+163	413	7834002398126376	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj	42b2b545fcbe8068
+61	338	7834114130732165	CMakeFiles/Controller.dir/mfrc522.c.obj	bea257cce384f65b
+173	418	7834002398217559	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.obj	b3bfa357d9db5c3f
+811	1289	7834000736626331	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.obj	983e79a22505d6e1
+168	397	7834002398177079	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj	d2967d30cce229cb
+178	381	7834002398274065	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.obj	9643d63fa606d5ba
+188	420	7834002398364447	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.obj	84de035545fe3c67
+195	435	7834002398438202	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj	39cacf190201d153
+183	418	7834002398324301	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj	fe4b00b3f451c43f
+101	481	7834002397506419	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj	bbf4843c41f33fee
+355	516	7834002400053099	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.obj	7883e495413eafb9
+152	491	7834002398016577	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj	def8d52f1a0a264b
+738	1221	7834000735884651	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.obj	eff703686b045686
+397	621	7834002400466654	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj	f96b85dbc037d3ec
+915	1317	7834000737663880	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj	ce695e0cccc63b0e
+166	295	7834000746848586	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj	2956e4a4b5da0091
+200	484	7834002398498786	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj	14bfea7d527734f6
+125	570	7834002397749507	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj	8667b2bf67da3c93
+389	606	7834002400404891	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj	56b2dda08af0dfdc
+170	365	7834000746908804	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_spi/spi.c.obj	a6a8ba4c8c799e04
+339	644	7834114136522492	Controller.elf	a1943312b8c74779
+339	644	7834114136522492	Controller.dis	a1943312b8c74779
+339	644	7834114136522492	Controller.hex	a1943312b8c74779
+339	644	7834114136522492	Controller.bin	a1943312b8c74779
+339	644	7834114136522492	Controller.uf2	a1943312b8c74779
+339	644	7834114136522492	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.dis	a1943312b8c74779
+339	644	7834114136522492	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.hex	a1943312b8c74779
+339	644	7834114136522492	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.bin	a1943312b8c74779
+339	644	7834114136522492	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.uf2	a1943312b8c74779
+104	577	7833998699486432	CMakeFiles/Controller.dir/usb_descriptors.c.obj	a6749e3b168d756d
+94	477	7833998699396099	CMakeFiles/Controller.dir/usb.c.obj	f2a56327fd567ae5
+1429	1766	7833998712726839	CMakeFiles/Controller.dir/C_/Users/travi/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.obj	b3ea1152eb1bd1e3
+58	201	7834114792048002	CMakeFiles/Controller.dir/Controller.c.obj	a4981d756961cc52
+201	635	7834114797700668	Controller.elf	a1943312b8c74779
+201	635	7834114797700668	Controller.dis	a1943312b8c74779
+201	635	7834114797700668	Controller.hex	a1943312b8c74779
+201	635	7834114797700668	Controller.bin	a1943312b8c74779
+201	635	7834114797700668	Controller.uf2	a1943312b8c74779
+201	635	7834114797700668	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.dis	a1943312b8c74779
+201	635	7834114797700668	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.hex	a1943312b8c74779
+201	635	7834114797700668	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.bin	a1943312b8c74779
+201	635	7834114797700668	C:/Users/travi/Documents/Embedded Projects/Raspberry Pi/Rasptroller/build/Controller.uf2	a1943312b8c74779

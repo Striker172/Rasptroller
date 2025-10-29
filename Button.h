@@ -4,7 +4,6 @@
 #include <stdint.h>
 #include <pico/stdlib.h>
 #include "hardware/gpio.h"
-#include "tusb.h"
 #define PIN_GROUP_START 8
 #define PIN_GROUP_END 15
 #define ButCount 7
