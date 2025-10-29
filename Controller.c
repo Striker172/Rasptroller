@@ -7,9 +7,9 @@ volatile bool sendHIDReport = true;
 MIFARE_Key key = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
 //This must have values whenever we scan the correct card on first try or something.
 static Uid OwnersUID = {
-    .uidByte = {},
-    .sak = 1,
-    .size =1 
+    .uidByte = {0x61, 0x20,0x09,0xA4},
+    .sak = 0x08,
+    .size = 0x04 
 }; 
 /*
 * A repeating timer interrupt that will be used to have the controller stop sending inputs 
@@ -29,9 +29,8 @@ int64_t alarm_callback(alarm_id_t id, __unused void *user_data){
     * is already a owner
 */
 bool makeOwnerCard(MFRC522Ptr_t mfrc522){
-    //bool MIFARE_SetUid, 
     bool Errors = 0;
-    // while(!PICC_IsNewCardPresent(mfrc522)); Assuming this has already been called before the command
+    while(!PICC_IsNewCardPresent(mfrc522));
     PICC_Select(mfrc522,&(mfrc522->uid),0);
     if(memcmp(&mfrc522->uid,&OwnersUID,sizeof(OwnersUID)) != 0){
         MIFARE_SetUid(mfrc522,OwnersUID.uidByte,OwnersUID.size,Errors);
@@ -54,7 +53,7 @@ StatusCode writeToCard(MFRC522Ptr_t mfrc522,
     memcpy(buffer,message,len);
     if(blockAddr > 3 && blockAddr%4 != 3){
         while(!PICC_IsNewCardPresent(mfrc522));
-        code = PICC_Select(mfrc522,&(mfrc522->uid),mfrc522->uid.size);
+        code = PICC_Select(mfrc522,&(mfrc522->uid),0);
         //  printf("1) Error code: %d\n",code);
         code = PCD_Authenticate(mfrc522,PICC_CMD_MF_AUTH_KEY_A,blockAddr,&key,&(mfrc522->uid));
         //  printf("2) Error code: %d\n",code);
@@ -76,9 +75,9 @@ StatusCode readFromCard(MFRC522Ptr_t mfrc522,uint8_t blockAddr,char *message){
     uint8_t size = sizeof(buffer);
     while(!PICC_IsNewCardPresent(mfrc522));
     code = PICC_Select(mfrc522,&(mfrc522->uid),0);//ALWAYS HAS TO BE ZERO OTHERWISE CAUSES ERROR WITH THE TIMEOUT
-     printf("1) Error code: %d\n",code);
+    //  printf("1) Error code: %d\n",code);
     code = PCD_Authenticate(mfrc522,PICC_CMD_MF_AUTH_KEY_A,blockAddr,&key,&(mfrc522->uid));
-     printf("2) Error code: %d\n",code);
+    //  printf("2) Error code: %d\n",code);
     if(code == 0){
             code = MIFARE_Read(mfrc522,blockAddr,buffer,&size);
              printf("3) Error code: %d\n",code);
@@ -88,9 +87,6 @@ StatusCode readFromCard(MFRC522Ptr_t mfrc522,uint8_t blockAddr,char *message){
         }
         memcpy(message,buffer,16);
         message[16] = '\0';
-        for(int i = 0; i < 16;i++){
-            printf("%c",message[i]);
-        }
         code = PICC_HaltA(mfrc522);
         return code;
 }
@@ -99,6 +95,9 @@ void DumptoSerial(MFRC522Ptr_t mfrc522){
     printf("Card detected!\n\r");
     PICC_ReadCardSerial(mfrc522);
     PICC_DumpToSerial(mfrc522,&(mfrc522->uid)); //This says uid, type of card and such. 
+    // printf("Card UID: %02X\n",mfrc522->uid.uidByte);
+    // printf("Card UID size: %02X\n",mfrc522->uid.size);
+
 }
 int main()
 {
@@ -106,7 +105,6 @@ int main()
     struct repeating_timer timer;
     //We can either have a pulling HIDtask in the while loop or have an alarm trigger it. Either way we need one for the count for the limited fun.
     // add_repeating_timer_ms(10,repeating_timer_callback,NULL,&timer);
-    uint8_t uid[] = {0x93,0xE3,0x9A,0x92}; //Dummy UID most likely.
     MFRC522Ptr_t mfrc522 = MFRC522_Init();
     PCD_Init(mfrc522,spi0);
     char *message = "Hi,There";
@@ -117,10 +115,11 @@ int main()
             // DumptoSerial(mfrc522);
             // while(!PICC_IsNewCardPresent(mfrc522));//This will need to be changed to something else later on
             StatusCode t; 
+            // makeOwnerCard(mfrc522);
             // t = writeToCard(mfrc522,0x04,message);
-            t = readFromCard(mfrc522,0x04,receive);
-            sleep_ms(500);
-            printf("4) Error code: %d\n",t);
+            // t = readFromCard(mfrc522,0x04,receive);
+            // sleep_ms(500);
+            // printf("4) Error code: %d\n",t);
             // printf("%s\n",receive);
         }
         /* This should how the setup should go for the timer
